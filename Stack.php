@@ -1,10 +1,10 @@
 <?php
 
 
-class Stack
+class Stack extends Sequence
 {
     /**@var Node*/
-    private $last;
+    private $last;// последний элемент
 
     public function __construct()
     {

@@ -3,9 +3,9 @@
 class Node
 {
     /**@var string*/
-    private $item;
+    private $item;//элемент
     /**@var Node*/
-    private $next;
+    private $next;// следующий элемент
 
     public function __construct(string $item, ?Node $next=null)
     {

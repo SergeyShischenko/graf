@@ -1,8 +1,10 @@
 <?php
 include 'Node.php';
+include 'Sequence.php';
 include 'Stack.php';
+include 'Queue.php';
 
-$stack = new Stack();
+$stack = new Queue();
 
 $stack->put('John');
 $stack->put('Alex');
