@@ -3,7 +3,7 @@
 class Node
 {
     /**@var string*/
-    private $item;//элемент
+    private $item;//элементт
     /**@var Node*/
     private $next;// следующий элемент
 
